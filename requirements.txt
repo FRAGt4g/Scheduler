@@ -1,0 +1,7 @@
+#For solving
+ortools
+
+#Plotting Time Complexities
+matplotlib.pyplot
+scipy.optimize
+numpy
