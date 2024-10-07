@@ -1,0 +1,3096 @@
+{
+  "10033468": {
+    "grade_level": "11th",
+    "required_classes": [
+      "English",
+      "Music",
+      "Chinese",
+      "Drama"
+    ],
+    "requested_classes": {
+      "Woodshop": [
+        "PE",
+        "Spanish",
+        "History"
+      ],
+      "Chinese": [
+        "English",
+        "Music",
+        "Woodshop"
+      ],
+      "Drama": [
+        "PE",
+        "Math",
+        "Art"
+      ]
+    }
+  },
+  "10081413": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Coding",
+      "Robotics",
+      "Piano"
+    ],
+    "requested_classes": {
+      "PE": [
+        "Cooking",
+        "German",
+        "Drama"
+      ],
+      "Music": [
+        "Robotics",
+        "Drama",
+        "Coding"
+      ],
+      "Piano": [
+        "Drama",
+        "French",
+        "Music"
+      ]
+    }
+  },
+  "10099531": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Piano",
+      "Chinese",
+      "Cooking",
+      "Music",
+      "PE"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "English",
+        "Cooking",
+        "Science"
+      ],
+      "Woodshop": [
+        "History",
+        "Coding",
+        "Drama"
+      ],
+      "History": [
+        "Drama",
+        "Cooking",
+        "PE"
+      ],
+      "Chinese": [
+        "Math",
+        "Science",
+        "Drama"
+      ]
+    }
+  },
+  "10022299": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Woodshop",
+      "Coding",
+      "Piano",
+      "French"
+    ],
+    "requested_classes": {
+      "French": [
+        "Woodshop",
+        "Math",
+        "Spanish"
+      ],
+      "Cooking": [
+        "German",
+        "Music",
+        "Chinese"
+      ],
+      "Coding": [
+        "Music",
+        "French",
+        "English"
+      ],
+      "Drama": [
+        "Music",
+        "Cooking",
+        "PE"
+      ],
+      "Robotics": [
+        "Music",
+        "History",
+        "Math"
+      ]
+    }
+  },
+  "10037397": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Music",
+      "Chinese",
+      "Science",
+      "Spanish"
+    ],
+    "requested_classes": {
+      "Coding": [
+        "Cooking",
+        "English",
+        "Music"
+      ],
+      "English": [
+        "Drama",
+        "Coding",
+        "German"
+      ],
+      "Drama": [
+        "Spanish",
+        "Drama",
+        "French"
+      ],
+      "Cooking": [
+        "German",
+        "Spanish",
+        "Piano"
+      ]
+    }
+  },
+  "10035942": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Robotics",
+      "Science",
+      "French"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "History",
+        "Piano",
+        "Science"
+      ],
+      "Spanish": [
+        "Art",
+        "Spanish",
+        "Coding"
+      ],
+      "Woodshop": [
+        "Music",
+        "Chinese",
+        "Woodshop"
+      ],
+      "Cooking": [
+        "Music",
+        "History",
+        "Coding"
+      ],
+      "Drama": [
+        "Cooking",
+        "Coding",
+        "Science"
+      ]
+    }
+  },
+  "10064252": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Art",
+      "Coding",
+      "English",
+      "PE",
+      "Math"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Chinese",
+        "Science",
+        "Spanish"
+      ],
+      "Cooking": [
+        "Music",
+        "Spanish",
+        "Chinese"
+      ],
+      "Science": [
+        "Music",
+        "Cooking",
+        "Chinese"
+      ],
+      "Robotics": [
+        "Piano",
+        "History",
+        "Coding"
+      ]
+    }
+  },
+  "10010377": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Science",
+      "Cooking",
+      "Robotics"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Woodshop",
+        "History",
+        "Math"
+      ],
+      "History": [
+        "Art",
+        "Chinese",
+        "Science"
+      ],
+      "Math": [
+        "Coding",
+        "Piano",
+        "German"
+      ],
+      "Music": [
+        "Piano",
+        "Drama",
+        "Art"
+      ],
+      "Cooking": [
+        "PE",
+        "Robotics",
+        "Coding"
+      ]
+    }
+  },
+  "10034106": {
+    "grade_level": "11th",
+    "required_classes": [
+      "PE",
+      "Math",
+      "English",
+      "Science",
+      "Spanish"
+    ],
+    "requested_classes": {
+      "French": [
+        "Piano",
+        "Woodshop",
+        "German"
+      ],
+      "Drama": [
+        "Music",
+        "Coding",
+        "French"
+      ],
+      "Coding": [
+        "Piano",
+        "Art",
+        "Robotics"
+      ],
+      "History": [
+        "Chinese",
+        "Drama",
+        "History"
+      ],
+      "Art": [
+        "Art",
+        "Spanish",
+        "Coding"
+      ]
+    }
+  },
+  "10010221": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Piano",
+      "Woodshop",
+      "PE"
+    ],
+    "requested_classes": {
+      "Woodshop": [
+        "Woodshop",
+        "Robotics",
+        "Art"
+      ],
+      "History": [
+        "Math",
+        "PE",
+        "Woodshop"
+      ],
+      "Piano": [
+        "Music",
+        "Coding",
+        "Cooking"
+      ]
+    }
+  },
+  "10087708": {
+    "grade_level": "11th",
+    "required_classes": [
+      "English",
+      "German",
+      "PE"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Spanish",
+        "Science",
+        "French"
+      ],
+      "German": [
+        "History",
+        "PE",
+        "Art"
+      ],
+      "Science": [
+        "German",
+        "Science",
+        "Music"
+      ],
+      "Piano": [
+        "Art",
+        "Chinese",
+        "PE"
+      ]
+    }
+  },
+  "10082364": {
+    "grade_level": "9th",
+    "required_classes": [
+      "English",
+      "Math",
+      "PE",
+      "Piano"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Math",
+        "Robotics",
+        "Spanish"
+      ],
+      "Cooking": [
+        "Robotics",
+        "Music",
+        "Cooking"
+      ],
+      "Piano": [
+        "Woodshop",
+        "Music",
+        "Cooking"
+      ],
+      "French": [
+        "Piano",
+        "Drama",
+        "Science"
+      ]
+    }
+  },
+  "10007450": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Spanish",
+      "Woodshop",
+      "Drama",
+      "Piano",
+      "Music"
+    ],
+    "requested_classes": {
+      "Piano": [
+        "Spanish",
+        "History",
+        "Woodshop"
+      ],
+      "Robotics": [
+        "Math",
+        "English",
+        "Art"
+      ],
+      "Spanish": [
+        "Science",
+        "Woodshop",
+        "Music"
+      ],
+      "PE": [
+        "Chinese",
+        "Math",
+        "German"
+      ]
+    }
+  },
+  "10074727": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Piano",
+      "Math",
+      "Music"
+    ],
+    "requested_classes": {
+      "Woodshop": [
+        "Coding",
+        "Piano",
+        "Spanish"
+      ],
+      "Robotics": [
+        "Robotics",
+        "Science",
+        "Art"
+      ],
+      "German": [
+        "Robotics",
+        "French",
+        "History"
+      ]
+    }
+  },
+  "10057768": {
+    "grade_level": "12th",
+    "required_classes": [
+      "German",
+      "Math",
+      "English",
+      "Woodshop"
+    ],
+    "requested_classes": {
+      "Robotics": [
+        "Spanish",
+        "Drama",
+        "Music"
+      ],
+      "Science": [
+        "Science",
+        "PE",
+        "Cooking"
+      ],
+      "Piano": [
+        "Cooking",
+        "Chinese",
+        "Coding"
+      ],
+      "English": [
+        "Woodshop",
+        "PE",
+        "German"
+      ],
+      "German": [
+        "Math",
+        "PE",
+        "English"
+      ]
+    }
+  },
+  "10050248": {
+    "grade_level": "12th",
+    "required_classes": [
+      "English",
+      "Art",
+      "Chinese",
+      "Woodshop",
+      "French"
+    ],
+    "requested_classes": {
+      "German": [
+        "Drama",
+        "Chinese",
+        "History"
+      ],
+      "Math": [
+        "Robotics",
+        "English",
+        "Math"
+      ],
+      "Art": [
+        "Chinese",
+        "Woodshop",
+        "French"
+      ],
+      "English": [
+        "Chinese",
+        "History",
+        "Science"
+      ],
+      "French": [
+        "Coding",
+        "Chinese",
+        "English"
+      ]
+    }
+  },
+  "10051655": {
+    "grade_level": "11th",
+    "required_classes": [
+      "English",
+      "PE",
+      "Music",
+      "Spanish"
+    ],
+    "requested_classes": {
+      "Music": [
+        "Drama",
+        "English",
+        "Woodshop"
+      ],
+      "Piano": [
+        "Science",
+        "Piano",
+        "English"
+      ],
+      "English": [
+        "PE",
+        "Robotics",
+        "French"
+      ],
+      "History": [
+        "Chinese",
+        "Art",
+        "Science"
+      ],
+      "Woodshop": [
+        "History",
+        "Chinese",
+        "Robotics"
+      ]
+    }
+  },
+  "10016441": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Music",
+      "Piano",
+      "German",
+      "Robotics"
+    ],
+    "requested_classes": {
+      "French": [
+        "Math",
+        "Art",
+        "Spanish"
+      ],
+      "Spanish": [
+        "Cooking",
+        "Art",
+        "PE"
+      ],
+      "Woodshop": [
+        "PE",
+        "Robotics",
+        "Piano"
+      ]
+    }
+  },
+  "10020171": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Woodshop",
+      "Robotics",
+      "English",
+      "Art"
+    ],
+    "requested_classes": {
+      "Drama": [
+        "Music",
+        "Science",
+        "Woodshop"
+      ],
+      "Coding": [
+        "Spanish",
+        "Coding",
+        "Woodshop"
+      ],
+      "Woodshop": [
+        "Spanish",
+        "Cooking",
+        "Piano"
+      ]
+    }
+  },
+  "10030834": {
+    "grade_level": "10th",
+    "required_classes": [
+      "German",
+      "Science",
+      "Chinese",
+      "Music"
+    ],
+    "requested_classes": {
+      "Robotics": [
+        "Piano",
+        "History",
+        "Science"
+      ],
+      "Science": [
+        "Math",
+        "Robotics",
+        "Woodshop"
+      ],
+      "Math": [
+        "Science",
+        "Spanish",
+        "History"
+      ]
+    }
+  },
+  "10041023": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Music",
+      "German",
+      "Drama",
+      "French"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "Cooking",
+        "Math",
+        "Art"
+      ],
+      "Art": [
+        "Spanish",
+        "Math",
+        "PE"
+      ],
+      "Robotics": [
+        "Art",
+        "French",
+        "Woodshop"
+      ],
+      "English": [
+        "German",
+        "Art",
+        "Math"
+      ]
+    }
+  },
+  "10008562": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Coding",
+      "Math",
+      "Drama",
+      "German",
+      "Music"
+    ],
+    "requested_classes": {
+      "Robotics": [
+        "Science",
+        "Woodshop",
+        "Math"
+      ],
+      "Coding": [
+        "Science",
+        "Drama",
+        "Spanish"
+      ],
+      "Cooking": [
+        "History",
+        "German",
+        "Art"
+      ],
+      "English": [
+        "Math",
+        "Cooking",
+        "Science"
+      ],
+      "PE": [
+        "Piano",
+        "Music",
+        "Woodshop"
+      ]
+    }
+  },
+  "10010372": {
+    "grade_level": "9th",
+    "required_classes": [
+      "German",
+      "Cooking",
+      "Piano",
+      "Drama"
+    ],
+    "requested_classes": {
+      "Coding": [
+        "Piano",
+        "Coding",
+        "Chinese"
+      ],
+      "German": [
+        "Spanish",
+        "German",
+        "Music"
+      ],
+      "Chinese": [
+        "History",
+        "German",
+        "Math"
+      ]
+    }
+  },
+  "10076208": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Cooking",
+      "Drama",
+      "Chinese"
+    ],
+    "requested_classes": {
+      "Drama": [
+        "French",
+        "Woodshop",
+        "German"
+      ],
+      "Woodshop": [
+        "German",
+        "History",
+        "PE"
+      ],
+      "History": [
+        "French",
+        "Science",
+        "German"
+      ],
+      "English": [
+        "PE",
+        "History",
+        "Math"
+      ],
+      "Piano": [
+        "PE",
+        "Coding",
+        "Piano"
+      ]
+    }
+  },
+  "10045182": {
+    "grade_level": "11th",
+    "required_classes": [
+      "French",
+      "Piano",
+      "Robotics",
+      "English"
+    ],
+    "requested_classes": {
+      "Science": [
+        "Woodshop",
+        "Piano",
+        "Science"
+      ],
+      "PE": [
+        "Coding",
+        "Cooking",
+        "Math"
+      ],
+      "French": [
+        "Drama",
+        "French",
+        "Robotics"
+      ]
+    }
+  },
+  "10052916": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Woodshop",
+      "English",
+      "Robotics",
+      "Math",
+      "German"
+    ],
+    "requested_classes": {
+      "Music": [
+        "Chinese",
+        "Science",
+        "Coding"
+      ],
+      "PE": [
+        "Woodshop",
+        "Science",
+        "History"
+      ],
+      "Robotics": [
+        "Music",
+        "German",
+        "History"
+      ],
+      "Woodshop": [
+        "Spanish",
+        "Robotics",
+        "Drama"
+      ]
+    }
+  },
+  "10010207": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Drama",
+      "Art",
+      "PE",
+      "Woodshop"
+    ],
+    "requested_classes": {
+      "Woodshop": [
+        "Music",
+        "PE",
+        "History"
+      ],
+      "Drama": [
+        "Spanish",
+        "PE",
+        "English"
+      ],
+      "Science": [
+        "Art",
+        "Cooking",
+        "Coding"
+      ]
+    }
+  },
+  "10041141": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Music",
+      "Drama",
+      "Math"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Art",
+        "Chinese",
+        "French"
+      ],
+      "Music": [
+        "English",
+        "Art",
+        "Spanish"
+      ],
+      "Piano": [
+        "Art",
+        "Cooking",
+        "Drama"
+      ]
+    }
+  },
+  "10048013": {
+    "grade_level": "10th",
+    "required_classes": [
+      "PE",
+      "Art",
+      "Robotics",
+      "Science",
+      "Math"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Science",
+        "Spanish",
+        "Music"
+      ],
+      "Drama": [
+        "Chinese",
+        "Drama",
+        "Piano"
+      ],
+      "English": [
+        "Woodshop",
+        "History",
+        "Math"
+      ],
+      "Science": [
+        "German",
+        "Woodshop",
+        "Math"
+      ]
+    }
+  },
+  "10052884": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Piano",
+      "Art",
+      "Robotics"
+    ],
+    "requested_classes": {
+      "Robotics": [
+        "History",
+        "Drama",
+        "English"
+      ],
+      "Spanish": [
+        "Robotics",
+        "Music",
+        "Spanish"
+      ],
+      "Piano": [
+        "German",
+        "Robotics",
+        "PE"
+      ],
+      "Music": [
+        "Math",
+        "Art",
+        "Music"
+      ],
+      "German": [
+        "Woodshop",
+        "Science",
+        "Piano"
+      ]
+    }
+  },
+  "10049720": {
+    "grade_level": "11th",
+    "required_classes": [
+      "PE",
+      "Music",
+      "English"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Piano",
+        "Math",
+        "History"
+      ],
+      "Coding": [
+        "Drama",
+        "Cooking",
+        "PE"
+      ],
+      "Math": [
+        "Math",
+        "Cooking",
+        "Chinese"
+      ],
+      "English": [
+        "Music",
+        "History",
+        "French"
+      ],
+      "Music": [
+        "Music",
+        "Art",
+        "PE"
+      ]
+    }
+  },
+  "10087599": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Science",
+      "History",
+      "Woodshop",
+      "English"
+    ],
+    "requested_classes": {
+      "Math": [
+        "Coding",
+        "Cooking",
+        "Robotics"
+      ],
+      "German": [
+        "History",
+        "Woodshop",
+        "PE"
+      ],
+      "Spanish": [
+        "Art",
+        "Spanish",
+        "Music"
+      ]
+    }
+  },
+  "10089541": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Spanish",
+      "Coding",
+      "Woodshop",
+      "Drama",
+      "Piano"
+    ],
+    "requested_classes": {
+      "Woodshop": [
+        "Chinese",
+        "History",
+        "Piano"
+      ],
+      "English": [
+        "Art",
+        "PE",
+        "Coding"
+      ],
+      "Coding": [
+        "Music",
+        "Woodshop",
+        "French"
+      ],
+      "Chinese": [
+        "Music",
+        "Spanish",
+        "German"
+      ]
+    }
+  },
+  "10057962": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Art",
+      "Science",
+      "Cooking"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Cooking",
+        "Chinese",
+        "Drama"
+      ],
+      "Robotics": [
+        "Art",
+        "Robotics",
+        "French"
+      ],
+      "Chinese": [
+        "Drama",
+        "Math",
+        "Cooking"
+      ],
+      "French": [
+        "Spanish",
+        "English",
+        "History"
+      ],
+      "Woodshop": [
+        "Music",
+        "Art",
+        "History"
+      ]
+    }
+  },
+  "10075290": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Drama",
+      "Robotics",
+      "German",
+      "French",
+      "Piano"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Chinese",
+        "Woodshop",
+        "English"
+      ],
+      "German": [
+        "Coding",
+        "Cooking",
+        "Science"
+      ],
+      "Chinese": [
+        "Music",
+        "German",
+        "Robotics"
+      ],
+      "History": [
+        "German",
+        "Music",
+        "Woodshop"
+      ],
+      "Music": [
+        "English",
+        "History",
+        "Art"
+      ]
+    }
+  },
+  "10090143": {
+    "grade_level": "12th",
+    "required_classes": [
+      "History",
+      "Spanish",
+      "Coding",
+      "Woodshop"
+    ],
+    "requested_classes": {
+      "German": [
+        "Cooking",
+        "Chinese",
+        "Robotics"
+      ],
+      "Robotics": [
+        "History",
+        "PE",
+        "Drama"
+      ],
+      "French": [
+        "PE",
+        "Music",
+        "Drama"
+      ],
+      "Science": [
+        "Cooking",
+        "Robotics",
+        "Spanish"
+      ]
+    }
+  },
+  "10006239": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Coding",
+      "Math",
+      "History",
+      "French"
+    ],
+    "requested_classes": {
+      "Music": [
+        "Cooking",
+        "Spanish",
+        "Science"
+      ],
+      "Spanish": [
+        "Chinese",
+        "History",
+        "Cooking"
+      ],
+      "English": [
+        "Chinese",
+        "Robotics",
+        "Cooking"
+      ],
+      "Chinese": [
+        "Cooking",
+        "Robotics",
+        "Art"
+      ],
+      "Art": [
+        "Coding",
+        "History",
+        "Woodshop"
+      ]
+    }
+  },
+  "10001895": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Cooking",
+      "English",
+      "Drama"
+    ],
+    "requested_classes": {
+      "History": [
+        "Piano",
+        "Coding",
+        "German"
+      ],
+      "Cooking": [
+        "History",
+        "English",
+        "Math"
+      ],
+      "Music": [
+        "Art",
+        "Chinese",
+        "Math"
+      ]
+    }
+  },
+  "10058697": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Chinese",
+      "Drama",
+      "English",
+      "Cooking",
+      "Music"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Music",
+        "French",
+        "Art"
+      ],
+      "Woodshop": [
+        "Woodshop",
+        "Robotics",
+        "Spanish"
+      ],
+      "Science": [
+        "Music",
+        "German",
+        "Science"
+      ],
+      "Spanish": [
+        "Drama",
+        "Chinese",
+        "Piano"
+      ],
+      "History": [
+        "Drama",
+        "Cooking",
+        "French"
+      ]
+    }
+  },
+  "10060850": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Robotics",
+      "Woodshop",
+      "Music",
+      "Chinese",
+      "PE"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "PE",
+        "Science",
+        "Drama"
+      ],
+      "French": [
+        "Music",
+        "Chinese",
+        "Piano"
+      ],
+      "History": [
+        "English",
+        "Cooking",
+        "Drama"
+      ],
+      "Woodshop": [
+        "German",
+        "History",
+        "Art"
+      ],
+      "Cooking": [
+        "Coding",
+        "Drama",
+        "English"
+      ]
+    }
+  },
+  "10083876": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Piano",
+      "French",
+      "PE",
+      "Art"
+    ],
+    "requested_classes": {
+      "PE": [
+        "Cooking",
+        "English",
+        "German"
+      ],
+      "Coding": [
+        "History",
+        "PE",
+        "Coding"
+      ],
+      "Piano": [
+        "Chinese",
+        "History",
+        "Science"
+      ],
+      "Math": [
+        "History",
+        "Chinese",
+        "Drama"
+      ]
+    }
+  },
+  "10084440": {
+    "grade_level": "11th",
+    "required_classes": [
+      "History",
+      "Piano",
+      "PE"
+    ],
+    "requested_classes": {
+      "Coding": [
+        "Robotics",
+        "History",
+        "Chinese"
+      ],
+      "Science": [
+        "Music",
+        "Math",
+        "Robotics"
+      ],
+      "French": [
+        "Science",
+        "Math",
+        "German"
+      ],
+      "Piano": [
+        "Piano",
+        "Drama",
+        "Science"
+      ],
+      "Music": [
+        "French",
+        "Chinese",
+        "Piano"
+      ]
+    }
+  },
+  "10014814": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Music",
+      "Piano",
+      "PE",
+      "Woodshop"
+    ],
+    "requested_classes": {
+      "Science": [
+        "Robotics",
+        "Science",
+        "Art"
+      ],
+      "Art": [
+        "Robotics",
+        "French",
+        "PE"
+      ],
+      "PE": [
+        "Coding",
+        "Woodshop",
+        "Spanish"
+      ],
+      "Robotics": [
+        "French",
+        "Music",
+        "Chinese"
+      ],
+      "Cooking": [
+        "English",
+        "Drama",
+        "Art"
+      ]
+    }
+  },
+  "10046361": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Coding",
+      "Science",
+      "English"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Math",
+        "Piano",
+        "History"
+      ],
+      "French": [
+        "Science",
+        "Math",
+        "Spanish"
+      ],
+      "Robotics": [
+        "PE",
+        "French",
+        "Art"
+      ]
+    }
+  },
+  "10071885": {
+    "grade_level": "10th",
+    "required_classes": [
+      "French",
+      "History",
+      "Coding",
+      "Science",
+      "Art"
+    ],
+    "requested_classes": {
+      "Woodshop": [
+        "History",
+        "Science",
+        "Spanish"
+      ],
+      "German": [
+        "PE",
+        "Spanish",
+        "History"
+      ],
+      "Art": [
+        "Math",
+        "Drama",
+        "Robotics"
+      ]
+    }
+  },
+  "10041998": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Coding",
+      "Math",
+      "Music",
+      "Robotics",
+      "Drama"
+    ],
+    "requested_classes": {
+      "Coding": [
+        "Drama",
+        "PE",
+        "Woodshop"
+      ],
+      "Piano": [
+        "History",
+        "Coding",
+        "Music"
+      ],
+      "Spanish": [
+        "Cooking",
+        "Piano",
+        "Coding"
+      ],
+      "French": [
+        "English",
+        "Chinese",
+        "PE"
+      ],
+      "Math": [
+        "Drama",
+        "French",
+        "German"
+      ]
+    }
+  },
+  "10040196": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Coding",
+      "Cooking",
+      "Piano",
+      "Chinese"
+    ],
+    "requested_classes": {
+      "German": [
+        "Coding",
+        "Math",
+        "Spanish"
+      ],
+      "Piano": [
+        "Drama",
+        "German",
+        "History"
+      ],
+      "Cooking": [
+        "German",
+        "Music",
+        "Art"
+      ],
+      "Art": [
+        "History",
+        "Robotics",
+        "French"
+      ]
+    }
+  },
+  "10012551": {
+    "grade_level": "11th",
+    "required_classes": [
+      "German",
+      "Drama",
+      "English"
+    ],
+    "requested_classes": {
+      "History": [
+        "Music",
+        "Art",
+        "Piano"
+      ],
+      "Music": [
+        "History",
+        "PE",
+        "Woodshop"
+      ],
+      "Art": [
+        "Science",
+        "PE",
+        "Drama"
+      ],
+      "Cooking": [
+        "Art",
+        "Cooking",
+        "English"
+      ]
+    }
+  },
+  "10028795": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Drama",
+      "Robotics",
+      "PE",
+      "Chinese"
+    ],
+    "requested_classes": {
+      "PE": [
+        "Math",
+        "Piano",
+        "Science"
+      ],
+      "Piano": [
+        "Coding",
+        "French",
+        "Science"
+      ],
+      "Cooking": [
+        "Piano",
+        "Coding",
+        "Cooking"
+      ]
+    }
+  },
+  "10040020": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Math",
+      "Music",
+      "Spanish",
+      "Drama"
+    ],
+    "requested_classes": {
+      "Math": [
+        "Music",
+        "Science",
+        "History"
+      ],
+      "German": [
+        "Cooking",
+        "Science",
+        "Art"
+      ],
+      "French": [
+        "Music",
+        "Robotics",
+        "Coding"
+      ],
+      "Robotics": [
+        "English",
+        "Cooking",
+        "Math"
+      ]
+    }
+  },
+  "10007038": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Woodshop",
+      "German",
+      "Coding",
+      "Piano"
+    ],
+    "requested_classes": {
+      "English": [
+        "Spanish",
+        "History",
+        "Drama"
+      ],
+      "Coding": [
+        "Woodshop",
+        "Math",
+        "Robotics"
+      ],
+      "Piano": [
+        "Drama",
+        "Chinese",
+        "German"
+      ],
+      "Math": [
+        "Coding",
+        "Spanish",
+        "German"
+      ]
+    }
+  },
+  "10096412": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Science",
+      "PE",
+      "Coding",
+      "Robotics",
+      "Piano"
+    ],
+    "requested_classes": {
+      "Drama": [
+        "Woodshop",
+        "PE",
+        "Robotics"
+      ],
+      "Science": [
+        "English",
+        "Spanish",
+        "Chinese"
+      ],
+      "History": [
+        "Spanish",
+        "Math",
+        "Coding"
+      ],
+      "PE": [
+        "History",
+        "Art",
+        "Coding"
+      ],
+      "Piano": [
+        "Coding",
+        "Art",
+        "Robotics"
+      ]
+    }
+  },
+  "10021074": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Chinese",
+      "Science",
+      "Music"
+    ],
+    "requested_classes": {
+      "Robotics": [
+        "Spanish",
+        "Art",
+        "German"
+      ],
+      "Drama": [
+        "Piano",
+        "German",
+        "Spanish"
+      ],
+      "German": [
+        "History",
+        "German",
+        "French"
+      ],
+      "Woodshop": [
+        "Music",
+        "Woodshop",
+        "Piano"
+      ]
+    }
+  },
+  "10080838": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Chinese",
+      "Coding",
+      "Cooking",
+      "French"
+    ],
+    "requested_classes": {
+      "History": [
+        "Spanish",
+        "Coding",
+        "English"
+      ],
+      "Coding": [
+        "Math",
+        "Music",
+        "Science"
+      ],
+      "Piano": [
+        "Spanish",
+        "German",
+        "History"
+      ],
+      "Robotics": [
+        "Piano",
+        "English",
+        "French"
+      ],
+      "Music": [
+        "Coding",
+        "Chinese",
+        "Cooking"
+      ]
+    }
+  },
+  "10096839": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Science",
+      "French",
+      "Robotics",
+      "Spanish",
+      "Cooking"
+    ],
+    "requested_classes": {
+      "French": [
+        "Music",
+        "Piano",
+        "Art"
+      ],
+      "German": [
+        "History",
+        "Science",
+        "Woodshop"
+      ],
+      "PE": [
+        "Spanish",
+        "PE",
+        "Drama"
+      ]
+    }
+  },
+  "10044653": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Music",
+      "French",
+      "Spanish",
+      "Chinese",
+      "German"
+    ],
+    "requested_classes": {
+      "Science": [
+        "Woodshop",
+        "PE",
+        "History"
+      ],
+      "Coding": [
+        "Cooking",
+        "Music",
+        "Science"
+      ],
+      "French": [
+        "Science",
+        "German",
+        "Drama"
+      ]
+    }
+  },
+  "10076375": {
+    "grade_level": "9th",
+    "required_classes": [
+      "History",
+      "Art",
+      "Woodshop"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Cooking",
+        "History",
+        "English"
+      ],
+      "Chinese": [
+        "French",
+        "German",
+        "Art"
+      ],
+      "Robotics": [
+        "Cooking",
+        "Math",
+        "PE"
+      ],
+      "Math": [
+        "Woodshop",
+        "PE",
+        "Robotics"
+      ]
+    }
+  },
+  "10047566": {
+    "grade_level": "12th",
+    "required_classes": [
+      "History",
+      "Math",
+      "Cooking",
+      "English"
+    ],
+    "requested_classes": {
+      "Robotics": [
+        "Art",
+        "Spanish",
+        "Piano"
+      ],
+      "Art": [
+        "Art",
+        "Robotics",
+        "Piano"
+      ],
+      "French": [
+        "History",
+        "Robotics",
+        "PE"
+      ],
+      "Science": [
+        "Drama",
+        "Math",
+        "English"
+      ],
+      "Music": [
+        "Cooking",
+        "Art",
+        "Math"
+      ]
+    }
+  },
+  "10039682": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Robotics",
+      "Music",
+      "Math",
+      "History",
+      "Science"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "German",
+        "Coding",
+        "Woodshop"
+      ],
+      "Piano": [
+        "Math",
+        "Spanish",
+        "Cooking"
+      ],
+      "German": [
+        "Piano",
+        "Robotics",
+        "Spanish"
+      ],
+      "Drama": [
+        "PE",
+        "History",
+        "Drama"
+      ],
+      "Cooking": [
+        "PE",
+        "Spanish",
+        "English"
+      ]
+    }
+  },
+  "10096218": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Coding",
+      "Spanish",
+      "Piano",
+      "Drama",
+      "PE"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "Drama",
+        "English",
+        "Art"
+      ],
+      "Science": [
+        "German",
+        "Spanish",
+        "Woodshop"
+      ],
+      "History": [
+        "Spanish",
+        "English",
+        "History"
+      ]
+    }
+  },
+  "10096306": {
+    "grade_level": "10th",
+    "required_classes": [
+      "English",
+      "French",
+      "Cooking"
+    ],
+    "requested_classes": {
+      "Piano": [
+        "Art",
+        "Cooking",
+        "Spanish"
+      ],
+      "Science": [
+        "Art",
+        "Cooking",
+        "Drama"
+      ],
+      "English": [
+        "Spanish",
+        "German",
+        "Drama"
+      ]
+    }
+  },
+  "10082681": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Art",
+      "History",
+      "Music",
+      "Coding",
+      "Robotics"
+    ],
+    "requested_classes": {
+      "Piano": [
+        "Art",
+        "German",
+        "English"
+      ],
+      "Coding": [
+        "Science",
+        "Music",
+        "PE"
+      ],
+      "Art": [
+        "Drama",
+        "Woodshop",
+        "Piano"
+      ]
+    }
+  },
+  "10030209": {
+    "grade_level": "11th",
+    "required_classes": [
+      "History",
+      "English",
+      "Robotics"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "Robotics",
+        "Drama",
+        "Chinese"
+      ],
+      "Science": [
+        "Chinese",
+        "History",
+        "Robotics"
+      ],
+      "Coding": [
+        "French",
+        "Woodshop",
+        "Coding"
+      ],
+      "Woodshop": [
+        "Robotics",
+        "History",
+        "Science"
+      ]
+    }
+  },
+  "10048156": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Robotics",
+      "French",
+      "English",
+      "Piano",
+      "Science"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "Coding",
+        "Music",
+        "Robotics"
+      ],
+      "Drama": [
+        "French",
+        "Coding",
+        "Music"
+      ],
+      "Math": [
+        "History",
+        "Coding",
+        "Art"
+      ]
+    }
+  },
+  "10067539": {
+    "grade_level": "12th",
+    "required_classes": [
+      "PE",
+      "Woodshop",
+      "History",
+      "Science",
+      "Robotics"
+    ],
+    "requested_classes": {
+      "Science": [
+        "Music",
+        "Robotics",
+        "Coding"
+      ],
+      "PE": [
+        "Math",
+        "Music",
+        "Spanish"
+      ],
+      "Music": [
+        "Music",
+        "Chinese",
+        "English"
+      ],
+      "English": [
+        "History",
+        "English",
+        "Science"
+      ]
+    }
+  },
+  "10025270": {
+    "grade_level": "11th",
+    "required_classes": [
+      "History",
+      "Coding",
+      "Science"
+    ],
+    "requested_classes": {
+      "PE": [
+        "Cooking",
+        "German",
+        "Science"
+      ],
+      "Woodshop": [
+        "Piano",
+        "Cooking",
+        "Math"
+      ],
+      "Science": [
+        "Woodshop",
+        "Piano",
+        "Science"
+      ],
+      "Drama": [
+        "Coding",
+        "Chinese",
+        "Art"
+      ]
+    }
+  },
+  "10015426": {
+    "grade_level": "12th",
+    "required_classes": [
+      "PE",
+      "Spanish",
+      "Science",
+      "Drama"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Drama",
+        "Coding",
+        "Piano"
+      ],
+      "PE": [
+        "Chinese",
+        "Math",
+        "History"
+      ],
+      "Robotics": [
+        "Woodshop",
+        "Drama",
+        "Science"
+      ],
+      "Math": [
+        "Music",
+        "Math",
+        "Drama"
+      ]
+    }
+  },
+  "10048031": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Science",
+      "Music",
+      "Cooking",
+      "Art",
+      "Coding"
+    ],
+    "requested_classes": {
+      "Drama": [
+        "Woodshop",
+        "Art",
+        "Cooking"
+      ],
+      "Robotics": [
+        "Music",
+        "German",
+        "English"
+      ],
+      "French": [
+        "German",
+        "Art",
+        "Coding"
+      ],
+      "Science": [
+        "Drama",
+        "Music",
+        "Coding"
+      ],
+      "Art": [
+        "Music",
+        "Science",
+        "History"
+      ]
+    }
+  },
+  "10095457": {
+    "grade_level": "11th",
+    "required_classes": [
+      "German",
+      "Coding",
+      "Robotics"
+    ],
+    "requested_classes": {
+      "Science": [
+        "Coding",
+        "Art",
+        "English"
+      ],
+      "Cooking": [
+        "Piano",
+        "Coding",
+        "German"
+      ],
+      "Art": [
+        "Math",
+        "Art",
+        "Drama"
+      ],
+      "Chinese": [
+        "Science",
+        "Woodshop",
+        "Chinese"
+      ]
+    }
+  },
+  "10007552": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Math",
+      "French",
+      "English",
+      "Cooking",
+      "PE"
+    ],
+    "requested_classes": {
+      "PE": [
+        "Music",
+        "English",
+        "Drama"
+      ],
+      "Spanish": [
+        "History",
+        "Art",
+        "Cooking"
+      ],
+      "Math": [
+        "PE",
+        "Spanish",
+        "Cooking"
+      ],
+      "History": [
+        "History",
+        "German",
+        "PE"
+      ]
+    }
+  },
+  "10095971": {
+    "grade_level": "12th",
+    "required_classes": [
+      "PE",
+      "Piano",
+      "Drama"
+    ],
+    "requested_classes": {
+      "Math": [
+        "Chinese",
+        "German",
+        "Cooking"
+      ],
+      "Woodshop": [
+        "Drama",
+        "Woodshop",
+        "Science"
+      ],
+      "Piano": [
+        "Piano",
+        "Music",
+        "French"
+      ],
+      "Cooking": [
+        "Cooking",
+        "Chinese",
+        "Science"
+      ],
+      "Chinese": [
+        "Cooking",
+        "Art",
+        "Science"
+      ]
+    }
+  },
+  "10097728": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Chinese",
+      "Cooking",
+      "History",
+      "Math",
+      "Drama"
+    ],
+    "requested_classes": {
+      "Art": [
+        "French",
+        "Coding",
+        "German"
+      ],
+      "Coding": [
+        "Coding",
+        "Spanish",
+        "English"
+      ],
+      "French": [
+        "Science",
+        "Math",
+        "History"
+      ],
+      "Robotics": [
+        "Robotics",
+        "Piano",
+        "Woodshop"
+      ],
+      "Science": [
+        "German",
+        "Science",
+        "Cooking"
+      ]
+    }
+  },
+  "10003204": {
+    "grade_level": "12th",
+    "required_classes": [
+      "German",
+      "Chinese",
+      "English",
+      "Science"
+    ],
+    "requested_classes": {
+      "Science": [
+        "Drama",
+        "French",
+        "Woodshop"
+      ],
+      "English": [
+        "Piano",
+        "Math",
+        "Woodshop"
+      ],
+      "French": [
+        "German",
+        "Math",
+        "Cooking"
+      ],
+      "Drama": [
+        "History",
+        "Science",
+        "Drama"
+      ],
+      "Spanish": [
+        "Art",
+        "Chinese",
+        "English"
+      ]
+    }
+  },
+  "10073582": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Math",
+      "Piano",
+      "French",
+      "Woodshop",
+      "Music"
+    ],
+    "requested_classes": {
+      "Woodshop": [
+        "Science",
+        "Music",
+        "Robotics"
+      ],
+      "Coding": [
+        "Drama",
+        "Math",
+        "Spanish"
+      ],
+      "PE": [
+        "French",
+        "Math",
+        "History"
+      ],
+      "History": [
+        "German",
+        "Piano",
+        "Math"
+      ],
+      "Chinese": [
+        "English",
+        "Spanish",
+        "French"
+      ]
+    }
+  },
+  "10006915": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Drama",
+      "Piano",
+      "Coding"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "Coding",
+        "English",
+        "Chinese"
+      ],
+      "Piano": [
+        "Chinese",
+        "Piano",
+        "Math"
+      ],
+      "Robotics": [
+        "Coding",
+        "English",
+        "Music"
+      ],
+      "Spanish": [
+        "Woodshop",
+        "History",
+        "Math"
+      ],
+      "Cooking": [
+        "Woodshop",
+        "Drama",
+        "French"
+      ]
+    }
+  },
+  "10068929": {
+    "grade_level": "10th",
+    "required_classes": [
+      "PE",
+      "Coding",
+      "Woodshop"
+    ],
+    "requested_classes": {
+      "Piano": [
+        "Woodshop",
+        "Piano",
+        "German"
+      ],
+      "Art": [
+        "Chinese",
+        "Art",
+        "English"
+      ],
+      "PE": [
+        "Coding",
+        "Chinese",
+        "PE"
+      ],
+      "Woodshop": [
+        "Drama",
+        "Coding",
+        "Science"
+      ],
+      "Spanish": [
+        "German",
+        "Cooking",
+        "PE"
+      ]
+    }
+  },
+  "10049453": {
+    "grade_level": "12th",
+    "required_classes": [
+      "PE",
+      "History",
+      "Science"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Drama",
+        "Robotics",
+        "Woodshop"
+      ],
+      "English": [
+        "Chinese",
+        "Drama",
+        "Spanish"
+      ],
+      "Math": [
+        "Woodshop",
+        "English",
+        "Math"
+      ]
+    }
+  },
+  "10053915": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Art",
+      "Science",
+      "Piano",
+      "Music"
+    ],
+    "requested_classes": {
+      "Coding": [
+        "English",
+        "Cooking",
+        "German"
+      ],
+      "Woodshop": [
+        "Science",
+        "Cooking",
+        "PE"
+      ],
+      "History": [
+        "Woodshop",
+        "PE",
+        "English"
+      ],
+      "Chinese": [
+        "Spanish",
+        "Art",
+        "History"
+      ],
+      "German": [
+        "Drama",
+        "Chinese",
+        "Spanish"
+      ]
+    }
+  },
+  "10060178": {
+    "grade_level": "12th",
+    "required_classes": [
+      "French",
+      "English",
+      "PE",
+      "Science",
+      "Art"
+    ],
+    "requested_classes": {
+      "Art": [
+        "History",
+        "Math",
+        "Woodshop"
+      ],
+      "Math": [
+        "German",
+        "Art",
+        "Robotics"
+      ],
+      "Chinese": [
+        "Cooking",
+        "Coding",
+        "Science"
+      ]
+    }
+  },
+  "10066541": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Art",
+      "German",
+      "Coding"
+    ],
+    "requested_classes": {
+      "Science": [
+        "History",
+        "Coding",
+        "Robotics"
+      ],
+      "Spanish": [
+        "Piano",
+        "Chinese",
+        "Spanish"
+      ],
+      "Robotics": [
+        "French",
+        "Spanish",
+        "Chinese"
+      ]
+    }
+  },
+  "10097504": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Drama",
+      "PE",
+      "Piano",
+      "Spanish",
+      "Chinese"
+    ],
+    "requested_classes": {
+      "History": [
+        "English",
+        "Coding",
+        "Math"
+      ],
+      "Chinese": [
+        "English",
+        "Cooking",
+        "Piano"
+      ],
+      "Drama": [
+        "Cooking",
+        "Robotics",
+        "Chinese"
+      ]
+    }
+  },
+  "10051183": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Drama",
+      "Math",
+      "Science"
+    ],
+    "requested_classes": {
+      "Woodshop": [
+        "Music",
+        "Science",
+        "Art"
+      ],
+      "Art": [
+        "Drama",
+        "PE",
+        "Woodshop"
+      ],
+      "Math": [
+        "Woodshop",
+        "Piano",
+        "Science"
+      ]
+    }
+  },
+  "10090356": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Science",
+      "French",
+      "Robotics",
+      "Cooking",
+      "Chinese"
+    ],
+    "requested_classes": {
+      "Drama": [
+        "Chinese",
+        "Robotics",
+        "French"
+      ],
+      "English": [
+        "Science",
+        "English",
+        "PE"
+      ],
+      "Science": [
+        "French",
+        "Robotics",
+        "Chinese"
+      ]
+    }
+  },
+  "10013423": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Woodshop",
+      "French",
+      "Coding",
+      "Spanish"
+    ],
+    "requested_classes": {
+      "Piano": [
+        "Spanish",
+        "Woodshop",
+        "Coding"
+      ],
+      "History": [
+        "Cooking",
+        "Piano",
+        "PE"
+      ],
+      "Cooking": [
+        "History",
+        "Drama",
+        "Music"
+      ]
+    }
+  },
+  "10071112": {
+    "grade_level": "9th",
+    "required_classes": [
+      "PE",
+      "Math",
+      "History"
+    ],
+    "requested_classes": {
+      "Music": [
+        "Spanish",
+        "Robotics",
+        "Drama"
+      ],
+      "Cooking": [
+        "Music",
+        "Spanish",
+        "PE"
+      ],
+      "History": [
+        "Cooking",
+        "Music",
+        "Math"
+      ],
+      "English": [
+        "Cooking",
+        "Chinese",
+        "Drama"
+      ],
+      "German": [
+        "Robotics",
+        "Chinese",
+        "History"
+      ]
+    }
+  },
+  "10079780": {
+    "grade_level": "10th",
+    "required_classes": [
+      "Drama",
+      "Art",
+      "Chinese"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "English",
+        "Chinese",
+        "Coding"
+      ],
+      "Music": [
+        "Art",
+        "English",
+        "Cooking"
+      ],
+      "Woodshop": [
+        "Chinese",
+        "Math",
+        "Drama"
+      ]
+    }
+  },
+  "10070631": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Robotics",
+      "Chinese",
+      "Spanish",
+      "Art"
+    ],
+    "requested_classes": {
+      "PE": [
+        "Piano",
+        "Coding",
+        "French"
+      ],
+      "English": [
+        "Piano",
+        "PE",
+        "Robotics"
+      ],
+      "Science": [
+        "Woodshop",
+        "Drama",
+        "Math"
+      ],
+      "Coding": [
+        "Science",
+        "Music",
+        "Woodshop"
+      ]
+    }
+  },
+  "10029395": {
+    "grade_level": "9th",
+    "required_classes": [
+      "French",
+      "English",
+      "Chinese",
+      "Piano"
+    ],
+    "requested_classes": {
+      "Chinese": [
+        "History",
+        "Robotics",
+        "Chinese"
+      ],
+      "English": [
+        "German",
+        "Robotics",
+        "Spanish"
+      ],
+      "History": [
+        "Spanish",
+        "Woodshop",
+        "Math"
+      ]
+    }
+  },
+  "10030671": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Spanish",
+      "Math",
+      "Robotics"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Music",
+        "Chinese",
+        "History"
+      ],
+      "Cooking": [
+        "History",
+        "Science",
+        "French"
+      ],
+      "PE": [
+        "Math",
+        "Coding",
+        "Robotics"
+      ],
+      "Music": [
+        "Math",
+        "English",
+        "French"
+      ],
+      "German": [
+        "PE",
+        "Coding",
+        "Spanish"
+      ]
+    }
+  },
+  "10043961": {
+    "grade_level": "9th",
+    "required_classes": [
+      "Music",
+      "Drama",
+      "History",
+      "Math"
+    ],
+    "requested_classes": {
+      "Drama": [
+        "Art",
+        "Chinese",
+        "Woodshop"
+      ],
+      "Math": [
+        "Science",
+        "Robotics",
+        "Math"
+      ],
+      "Science": [
+        "Robotics",
+        "Music",
+        "Spanish"
+      ],
+      "German": [
+        "Coding",
+        "Art",
+        "Robotics"
+      ],
+      "Art": [
+        "PE",
+        "Art",
+        "Science"
+      ]
+    }
+  },
+  "10039105": {
+    "grade_level": "11th",
+    "required_classes": [
+      "German",
+      "French",
+      "Art"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Chinese",
+        "Science",
+        "Drama"
+      ],
+      "Drama": [
+        "German",
+        "Woodshop",
+        "Robotics"
+      ],
+      "Art": [
+        "German",
+        "Music",
+        "Science"
+      ]
+    }
+  },
+  "10050543": {
+    "grade_level": "11th",
+    "required_classes": [
+      "French",
+      "Science",
+      "Music"
+    ],
+    "requested_classes": {
+      "Spanish": [
+        "Woodshop",
+        "Music",
+        "Spanish"
+      ],
+      "Drama": [
+        "Woodshop",
+        "Piano",
+        "English"
+      ],
+      "German": [
+        "Art",
+        "Math",
+        "Coding"
+      ]
+    }
+  },
+  "10039252": {
+    "grade_level": "11th",
+    "required_classes": [
+      "History",
+      "Science",
+      "Cooking"
+    ],
+    "requested_classes": {
+      "History": [
+        "Art",
+        "Math",
+        "Music"
+      ],
+      "Music": [
+        "Coding",
+        "PE",
+        "History"
+      ],
+      "Art": [
+        "Drama",
+        "Woodshop",
+        "Cooking"
+      ]
+    }
+  },
+  "10078498": {
+    "grade_level": "10th",
+    "required_classes": [
+      "French",
+      "Math",
+      "English",
+      "Cooking"
+    ],
+    "requested_classes": {
+      "Math": [
+        "Music",
+        "Spanish",
+        "Piano"
+      ],
+      "Robotics": [
+        "French",
+        "Spanish",
+        "Math"
+      ],
+      "French": [
+        "English",
+        "Piano",
+        "Science"
+      ]
+    }
+  },
+  "10041833": {
+    "grade_level": "12th",
+    "required_classes": [
+      "History",
+      "Art",
+      "Math"
+    ],
+    "requested_classes": {
+      "Art": [
+        "Math",
+        "German",
+        "French"
+      ],
+      "Chinese": [
+        "French",
+        "Chinese",
+        "Art"
+      ],
+      "Coding": [
+        "Piano",
+        "Robotics",
+        "Chinese"
+      ],
+      "Music": [
+        "Chinese",
+        "Cooking",
+        "Art"
+      ]
+    }
+  },
+  "10048245": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Piano",
+      "Cooking",
+      "Drama",
+      "Coding"
+    ],
+    "requested_classes": {
+      "German": [
+        "Chinese",
+        "PE",
+        "Art"
+      ],
+      "English": [
+        "Science",
+        "Piano",
+        "Woodshop"
+      ],
+      "Piano": [
+        "History",
+        "Robotics",
+        "Piano"
+      ],
+      "History": [
+        "Robotics",
+        "French",
+        "Spanish"
+      ],
+      "PE": [
+        "Piano",
+        "Robotics",
+        "PE"
+      ]
+    }
+  },
+  "10030822": {
+    "grade_level": "12th",
+    "required_classes": [
+      "Cooking",
+      "Drama",
+      "Music",
+      "PE"
+    ],
+    "requested_classes": {
+      "Cooking": [
+        "Music",
+        "Math",
+        "Science"
+      ],
+      "Piano": [
+        "Woodshop",
+        "English",
+        "Spanish"
+      ],
+      "Spanish": [
+        "Piano",
+        "Art",
+        "Coding"
+      ]
+    }
+  },
+  "10024494": {
+    "grade_level": "11th",
+    "required_classes": [
+      "German",
+      "Math",
+      "Chinese"
+    ],
+    "requested_classes": {
+      "History": [
+        "Chinese",
+        "Woodshop",
+        "English"
+      ],
+      "Robotics": [
+        "Piano",
+        "Chinese",
+        "Coding"
+      ],
+      "Spanish": [
+        "History",
+        "Cooking",
+        "Chinese"
+      ],
+      "Chinese": [
+        "Robotics",
+        "Science",
+        "German"
+      ],
+      "Cooking": [
+        "Drama",
+        "Chinese",
+        "Piano"
+      ]
+    }
+  },
+  "10020961": {
+    "grade_level": "11th",
+    "required_classes": [
+      "Woodshop",
+      "Art",
+      "Coding",
+      "PE"
+    ],
+    "requested_classes": {
+      "Piano": [
+        "Woodshop",
+        "French",
+        "Science"
+      ],
+      "Math": [
+        "Music",
+        "Cooking",
+        "Woodshop"
+      ],
+      "German": [
+        "PE",
+        "Woodshop",
+        "Piano"
+      ],
+      "Cooking": [
+        "Art",
+        "Cooking",
+        "Music"
+      ]
+    }
+  },
+  "10067864": {
+    "grade_level": "11th",
+    "required_classes": [
+      "German",
+      "Music",
+      "Art",
+      "Chinese"
+    ],
+    "requested_classes": {
+      "English": [
+        "History",
+        "Math",
+        "Drama"
+      ],
+      "Woodshop": [
+        "Chinese",
+        "Cooking",
+        "Piano"
+      ],
+      "Music": [
+        "English",
+        "History",
+        "German"
+      ],
+      "PE": [
+        "English",
+        "Coding",
+        "History"
+      ]
+    }
+  }
+}
