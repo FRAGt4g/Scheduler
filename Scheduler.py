@@ -1,113 +1,7 @@
 from ortools.sat.python.cp_model import IntVar, LiteralT
 from ortools.sat.python import cp_model
-from typing import Any, Dict, List, Tuple
-import random
 import JSONManager as json_builder
 import time
-
-Courses = Dict[
-    str,                    # Course Name 
-    Dict[                   # Periods & Classrooms
-        str,                # Period
-        list[Dict[          # Classrooms
-            str,        
-            str | int       # Teacher / Capacity
-        ]]
-    ] | 
-    Dict[str, list[str]] |  # Credits
-    Dict[str, str] |        # Length of class
-    Dict[str, Dict[         # Grade Weights
-        str, int
-    ]] | 
-    Dict[str, List[str]]    # Prerequisites
-]
-
-class Student:
-    def __init__(self, student_id: int, grade_level: str, required_classes: list[str], requested_classes: dict[str, list[str]]):
-        self.id = student_id
-        self.grade_level = grade_level
-        self.required_classes = required_classes
-        self.requested_classes = requested_classes
-
-class Course:
-    def __init__(self, name: str, time_slots: list[str], capacity: int, grade_weights: dict[str, int]):
-        self.name = name
-        self.time_slots = time_slots
-        self.capacity = capacity
-        self.grade_weight = grade_weights
-class ScheduleBuilder:
-    def __init__(self, courses: list[Course], periods: list[str], grade_levels: list[str], students: list[Student] = []):
-        self.periods = periods
-        self.grades = grade_levels
-        self.courses = {courses.name: courses for courses in courses}
-        self.students = {student.id: student for student in students}
-        self.model = cp_model.CpModel()
-        self.x: dict[tuple[int, str, str], LiteralT] = {}
-
-    def populate_student_information(self, student_count: int, id_range: tuple[int, int] = (100_00000, 100_99999)) -> None:
-        for _ in range(1, student_count + 1):
-            while (id := random.randint(id_range[0], id_range[1])) in self.students: continue
-
-            self.students[id] = Student(id, 
-                grade_level=random.choice(self.grades), 
-                required_classes=random.sample(list(self.courses.keys()), random.randint(3, 5)), 
-                requested_classes= {
-                    intended: random.sample(list(self.courses.keys()), 3) for intended in random.sample(list(self.courses.keys()), random.randint(3, 5))
-                }
-            )
-    
-    def build_model(self):
-        # Decision Variables
-        # x[(i, c, t)] = 1 if student s is assigned to class c at time t
-        self.x = {
-            (s, c, t): self.model.NewBoolVar(f"x_{s}_{c}_{t}") 
-            for s in self.students for c in self.courses for t in self.courses[c].time_slots
-        }
-        
-        # const
-        
-        # 1. Required Classes: Each student must be assigned to all required classes
-        for s in self.students:
-            for c in self.students[s].required_classes:
-                # Sum over all possible time slots for class j
-                self.model.Add(sum(self.x[(s, c, t)] for t in self.courses[c].time_slots) == 1)
-        
-        # 2. Class Capacity: No class exceeds its capacity
-        for c in self.courses:
-            for t in self.courses[c].time_slots:
-                self.model.Add(
-                    sum(self.x[(s, c, t)] for s in self.students) <= self.courses[c].capacity
-                )
-        
-        # 3. Time Slot Conflicts: A student cannot be in more than one class at the same time
-        for s in self.students:
-            for t in self.periods:
-                # If 
-                courses_at_t = [course for course in self.courses if t in self.courses[course].time_slots]
-                if len(courses_at_t) > 0:
-                    self.model.Add(sum(self.x[(s, c, t)] for c in courses_at_t) <= 1)
-    
-    def solve_model(self) -> tuple[dict[int, list[tuple[str, str]]], float, str]:
-        solver = cp_model.CpSolver()
-        self.model.Maximize(sum(self.x[(s, c, t)] for s in self.students for c in self.courses for t in self.courses[c].time_slots))
-        solver.Solve(self.model)
-        if solver.StatusName() != "OPTIMAL" and solver.StatusName() != "FEASIBLE":
-            return ({}, solver.ObjectiveValue(), solver.StatusName())
-        
-        results: dict[int, list[tuple[str, str]]] = {student: [] for student in self.students}
-        for (student, course, time), val in self.x.items():
-            if solver.BooleanValue(val):
-                results[student].append((course, time))
-        
-        return (results, solver.ObjectiveValue(), solver.StatusName())
-
-
-    def solve(students, courses, periods, grade_levels):
-        scheduler = ScheduleBuilder(courses, periods, grade_levels, students)
-        scheduler.build_model()
-        return scheduler.solve_model()
-
-
 
 RESULTS = dict[int, list[tuple[str, str, str]]]
 STUDENT_COUNT = int
@@ -231,3 +125,140 @@ def solve_json(student_json: str, course_json: str, max_count: int | None) -> tu
             results[student].append((course, period, teacher))
     
     return (results, student_count, (solver.ObjectiveValue(), solver.StatusName()), time_logs)
+
+
+
+
+"""
+Old System. Saving incase new one has problems...
+
+Courses = Dict[
+    str,                    # Course Name 
+    Dict[                   # Periods & Classrooms
+        str,                # Period
+        list[Dict[          # Classrooms
+            str,        
+            str | int       # Teacher / Capacity
+        ]]
+    ] | 
+    Dict[str, list[str]] |  # Credits
+    Dict[str, str] |        # Length of class
+    Dict[str, Dict[         # Grade Weights
+        str, int
+    ]] | 
+    Dict[str, List[str]]    # Prerequisites
+]
+
+class Student:
+    def __init__(self, student_id: int, grade_level: str, required_classes: list[str], requested_classes: dict[str, list[str]]):
+        self.id = student_id
+        self.grade_level = grade_level
+        self.required_classes = required_classes
+        self.requested_classes = requested_classes
+class Course:
+    def __init__(self, name: str, time_slots: list[str], capacity: int, grade_weights: dict[str, int]):
+        self.name = name
+        self.time_slots = time_slots
+        self.capacity = capacity
+        self.grade_weight = grade_weights
+class ScheduleBuilder:
+    def __init__(self, courses: list[Course], periods: list[str], grade_levels: list[str], students: list[Student] = []):
+        self.periods = periods
+        self.grades = grade_levels
+        self.courses = {courses.name: courses for courses in courses}
+        self.students = {student.id: student for student in students}
+        self.model = cp_model.CpModel()
+        self.x: dict[tuple[int, str, str], LiteralT] = {}
+
+    def populate_student_information(self, student_count: int, id_range: tuple[int, int] = (100_00000, 100_99999)) -> None:
+        for _ in range(1, student_count + 1):
+            while (id := random.randint(id_range[0], id_range[1])) in self.students: continue
+
+            self.students[id] = Student(id, 
+                grade_level=random.choice(self.grades), 
+                required_classes=random.sample(list(self.courses.keys()), random.randint(3, 5)), 
+                requested_classes= {
+                    intended: random.sample(list(self.courses.keys()), 3) for intended in random.sample(list(self.courses.keys()), random.randint(3, 5))
+                }
+            )
+    
+    def build_model(self):
+        # Decision Variables
+        # x[(i, c, t)] = 1 if student s is assigned to class c at time t
+        self.x = {
+            (s, c, t): self.model.NewBoolVar(f"x_{s}_{c}_{t}") 
+            for s in self.students for c in self.courses for t in self.courses[c].time_slots
+        }
+        
+        # const
+        
+        # 1. Required Classes: Each student must be assigned to all required classes
+        for s in self.students:
+            for c in self.students[s].required_classes:
+                # Sum over all possible time slots for class j
+                self.model.Add(sum(self.x[(s, c, t)] for t in self.courses[c].time_slots) == 1)
+        
+        # 2. Class Capacity: No class exceeds its capacity
+        for c in self.courses:
+            for t in self.courses[c].time_slots:
+                self.model.Add(
+                    sum(self.x[(s, c, t)] for s in self.students) <= self.courses[c].capacity
+                )
+        
+        # 3. Time Slot Conflicts: A student cannot be in more than one class at the same time
+        for s in self.students:
+            for t in self.periods:
+                # If 
+                courses_at_t = [course for course in self.courses if t in self.courses[course].time_slots]
+                if len(courses_at_t) > 0:
+                    self.model.Add(sum(self.x[(s, c, t)] for c in courses_at_t) <= 1)
+    
+    def solve_model(self) -> tuple[dict[int, list[tuple[str, str]]], float, str]:
+        solver = cp_model.CpSolver()
+        self.model.Maximize(sum(self.x[(s, c, t)] for s in self.students for c in self.courses for t in self.courses[c].time_slots))
+        solver.Solve(self.model)
+        if solver.StatusName() != "OPTIMAL" and solver.StatusName() != "FEASIBLE":
+            return ({}, solver.ObjectiveValue(), solver.StatusName())
+        
+        results: dict[int, list[tuple[str, str]]] = {student: [] for student in self.students}
+        for (student, course, time), val in self.x.items():
+            if solver.BooleanValue(val):
+                results[student].append((course, time))
+        
+        return (results, solver.ObjectiveValue(), solver.StatusName())
+
+
+    def solve(students, courses, periods, grade_levels):
+        scheduler = ScheduleBuilder(courses, periods, grade_levels, students)
+        scheduler.build_model()
+        return scheduler.solve_model()
+        if solver.StatusName() != "OPTIMAL" and solver.StatusName() != "FEASIBLE":
+            return ({}, solver.ObjectiveValue(), solver.StatusName())
+        
+        results: dict[int, list[tuple[str, str]]] = {student: [] for student in self.students}
+        for (student, course, time), val in self.x.items():
+            if solver.BooleanValue(val):
+                results[student].append((course, time))
+        return (results, solver.ObjectiveValue(), solver.StatusName())
+        
+
+
+    def solve(students, courses, periods, grade_levels):
+        scheduler = ScheduleBuilder(courses, periods, grade_levels, students)
+        scheduler.build_model()
+        return scheduler.solve_model()
+        if solver.StatusName() != "OPTIMAL" and solver.StatusName() != "FEASIBLE":
+            return ({}, solver.ObjectiveValue(), solver.StatusName())
+        
+        results: dict[int, list[tuple[str, str]]] = {student: [] for student in self.students}
+        for (student, course, time), val in self.x.items():
+            if solver.BooleanValue(val):
+                results[student].append((course, time))
+        
+        return (results, solver.ObjectiveValue(), solver.StatusName())
+
+
+    def solve(students, courses, periods, grade_levels):
+        scheduler = ScheduleBuilder(courses, periods, grade_levels, students)
+        scheduler.build_model()
+        return scheduler.solve_model()"""
