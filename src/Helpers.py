@@ -1,6 +1,5 @@
 import random
 from typing import TypeVar
-import pprint
 import textwrap
 from typing import List, Tuple
 
@@ -43,7 +42,6 @@ def log_time_info(time_logs: List[Tuple[str, float, float]], student_count: int)
     print("---------------------------------------\n")
 
 T = TypeVar("T")
-
 def rand_pop(list: List[T]) -> T:
     list.remove(x:= random.choice(list))
     return x

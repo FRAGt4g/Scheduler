@@ -37,12 +37,10 @@ def solve_json(student_json: str, course_json: str, max_count: int | None) -> Tu
                     if not isinstance(classroom["capacity"], int):
                         raise TypeError("Capacity must be an integer.")
     
-    # time_logs: dict[str, tuple[float, tuple[float, float]]] = {} #Key: (Time at this step, (Start time, end time))
-    time_logs: List[Tuple[str, float, float]] = [] #Key: (Time at this step, (Start time, end time))
+    time_logs: List[Tuple[str, float, float]] = []
     start_time = time.time()
     check_data_validity(student_json, course_json)
     time_logs.append(("safety check(s)", time.time(), time.time() - start_time))
-    # time_logs["safety check"] = (time.time() - list([time_logs[log] for log in time_logs])[-1], (time.time(), list([time_logs[log][1][1] for log in time_logs])[-1]))
     
     courses = json_builder.read(course_json)
     students = json_builder.read(student_json)
@@ -50,7 +48,6 @@ def solve_json(student_json: str, course_json: str, max_count: int | None) -> Tu
     
     student_count = len(students)
     time_logs.append(("reading json", time.time(), time.time() - time_logs[-1][1]))
-    # time_logs["reading json"] = (time.time() - list([time_logs[log][1][1] for log in time_logs])[-1], (time.time(), list([time_logs[log][1][1] for log in time_logs])[-1]))
     model = cp_model.CpModel()
 
     x = {

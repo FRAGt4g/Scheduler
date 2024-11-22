@@ -1,7 +1,7 @@
 import JSONManager as json_builder
 import Helpers as addons
 import Scheduler
-import plotter
+import Plotter
 import sys
 
 
@@ -87,7 +87,17 @@ COURSE_TITLES = [
     "Sociology",
 ]
 
+
+
 def ran_special_command(arguments: list[str]) -> bool:
+    """
+    Special Commands:
+     - `generate_s` generates new fake student data
+     - `generate_t` generates new fake teacher data
+     - `generate_r` generates new fake room data
+     - `time_comp` graphs time of the program against common big O functions 
+     - `compile_c` uses teacher, student, and room data to compile course data
+    """
     
     #Should add a unit test option
     if arguments[1] == "generate_s": 
@@ -130,7 +140,7 @@ def ran_special_command(arguments: list[str]) -> bool:
         )
         return True
     elif arguments[1] == "time_comp": 
-        plotter.graph_time_complexity(
+        Plotter.graph_time_complexity(
             function =      lambda n: Scheduler.solve_json(STUDENT_JSON_LOCATION, COURSES_JSON_LOCATION, n), 
             input_range =   range(1, 1_000, 50)
         )

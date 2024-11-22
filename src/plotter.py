@@ -1,20 +1,29 @@
 import time
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
+import numpy as np #type: ignore
+import matplotlib.pyplot as plt #type: ignore
+from scipy.optimize import curve_fit #type: ignore
 from typing import Callable
 
 
 def graph_time_complexity(function: Callable, input_range: range, time_complexities: dict | None = None):
-    # Measure time for different input sizes
+    """
+    Times `function` for each option in `input_range` and compares it against a set of time complexities.
+    
+    The basic are: 
+    - Linear
+    - Quadratic
+    - Log Linear 
+
+    If you want, you can provide your own as well.
+    """
+
     input_sizes = list(input_range)
     times = []
 
     for n in input_sizes:
         start_time = time.time()
         function(n)
-        end_time = time.time()
-        times.append(end_time - start_time)
+        times.append(time.time() - start_time)
 
     if time_complexities is None:
         time_complexities = {

@@ -9,7 +9,16 @@ def write_into(filename, info):
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename, "w") as f: json.dump(info, f, indent=2)
 
-def generate_student_json(filename: str, student_count: int, teacher_json: str, grades: List[str], required_class_range: range, requested_class_range: range, backup_count: int, possibile_ids: range=range(100_00000, 100_99999)):
+def generate_student_json(
+        filename: str,
+        student_count: int,
+        teacher_json: str,
+        grades: List[str],
+        required_class_range: range,
+        requested_class_range: range,
+        backup_count: int, 
+        possibile_ids: range = range(100_00000, 100_99999)
+    ):
     students = {}
     teacher_info = read(teacher_json)
     courses = []
@@ -38,15 +47,22 @@ def generate_student_json(filename: str, student_count: int, teacher_json: str, 
     write_into(filename, students)
 
 def generate_room_json(filename, count, capacity_range: range, room_number_range: range):
-    allowed_room_numbers = list(room_number_range)
     write_into(filename, {
-        f"{addons.rand_pop(allowed_room_numbers)}": {
+        f"{addons.rand_pop(list(room_number_range))}": {
             "capacity": random.choice(capacity_range)
         }
         for _ in range(count)
     })
 
-def generate_teacher_json(filename, count: int, teacher_names: List[str], course_count_range:range, working_periods_range: range, allowed_periods: List[str], room_json, courses: List[str]):
+def generate_teacher_json(
+        filename, count: int, 
+        teacher_names: List[str], 
+        course_count_range: range, 
+        working_periods_range: range,
+        allowed_periods: List[str], 
+        room_json, 
+        courses: List[str]
+    ):
     rooms = [room for room in read(room_json)]
     teachers: dict = {}
     for _ in range(min(count, len(teacher_names))):
@@ -83,11 +99,10 @@ def compile_course_json(filename, teacher_json, room_json):
 
 def write_results(filename, results: Dict[int, List[Tuple[str, str, str]]]):
     write_into(filename, {
-        student_id: [
-            {
-                "course": course,
-                "period": period,
-                "teacher": teacher
-            } for course, period, teacher in results[student_id]
+        student_id: [{
+            "course": course,
+            "period": period,
+            "teacher": teacher
+        } for course, period, teacher in results[student_id]
         ] for student_id in results
     })
